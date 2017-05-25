@@ -15,7 +15,7 @@
  *******************************************************************************/
 
 var config = {
-	iot_deviceType: "Vehicle"",     // replace with your deviceType
+	iot_deviceType: "Vehicle",     // replace with your deviceType
 	iot_deviceOrg: "ciqjwi",       // replace with your IoT Foundation organization
 	iot_deviceSet: [               // replace with your registered device(s)
 		{ deviceId: "Vehicle1", token: "5QK1rWHG9JhDwrsS" },
