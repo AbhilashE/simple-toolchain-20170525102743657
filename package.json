@@ -1,16 +1,19 @@
 {
-	"name": "HelloWorldNodeApp",
-	"version": "0.0.1",
-    "private": true,
-	"scripts": {
-		"start": "node app.js"
-	},
-	"dependencies": {
-		"express": "4.13.x",
-		"cfenv": "1.0.x"
-	},
-	"repository": {},
-	"engines": {
-		"node": "4.2.x"
-	} 
+  "name":"iot-connected-vehicle-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "mqtt": "1.0.5",
+    "xml2js": "0.4.4",
+    "node-vincenty": "0.0.6",
+    "optimist": "0.6.1",
+    "express": ">=3.4.7 <4"
+  },
+  "engines": {
+        "node": "0.10.x"
+  },
+  "repository": {}
 }
